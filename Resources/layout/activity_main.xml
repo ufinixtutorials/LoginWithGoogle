@@ -1,0 +1,43 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <Button
+        android:id="@+id/signinButton"
+        android:layout_centerInParent="true"
+        android:text="Sign in with Google"
+    android:layout_width="250dp"
+    android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/displayNameText"
+            android:text="Display Name :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/emailText"
+            android:text="Email :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/photourlText"
+            android:text="PhotoUrl :"
+            android:maxLength="50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+</RelativeLayout>
